@@ -2,3 +2,7 @@
 .project
 .settings/
 target/
+*.pyc
+mxbuild
+sample
+mx.sample/env
