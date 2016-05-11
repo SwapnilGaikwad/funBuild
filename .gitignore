@@ -6,3 +6,4 @@ target/
 mxbuild
 sample
 mx.sample/env
+build/
