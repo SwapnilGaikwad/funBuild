@@ -45,5 +45,11 @@
 			<artifactId>joda-time</artifactId>
 			<version>2.9.3</version>
 		</dependency>
+
+		<dependency>
+			<groupId>com.oracle.truffle</groupId>
+			<artifactId>truffle-api</artifactId>
+			<version>0.13</version>
+		</dependency>
 	</dependencies>
 </project>

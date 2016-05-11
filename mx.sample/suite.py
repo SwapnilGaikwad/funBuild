@@ -13,6 +13,16 @@ suite = {
         "version" : "2.9.3"
       },
       "sha1" : "9e46be514a4ed60bcfbaaba88a3c668cf30476ab"
+    },
+    "TRUFFLE-API" : {
+      "path" : "lib/truffle-api.jar",
+      "urls" : "",
+      "maven" : {
+        "groupId" : "com.oracle.truffle",
+        "artifactId" : "truffle-api",
+        "version" : "0.13"
+      },
+      "sha1" : "1591f730dbc7df76819c4d2f84ebc2a060fcc3a6"
     }
   },
 
@@ -21,6 +31,7 @@ suite = {
       "sourceDirs" : ["src"],
       "dependencies" : [
        "JODA",
+       "TRUFFLE-API",
        "mx:JUNIT"
       ],
       "javaCompliance" : "1.8"
@@ -34,6 +45,7 @@ suite = {
       "dependencies" : ["sampleproj"],
       "exclude" : [
         "JODA",
+        "TRUFFLE-API",
         "mx:JUNIT"
       ]
     }
