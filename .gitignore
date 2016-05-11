@@ -4,6 +4,5 @@
 target/
 *.pyc
 mxbuild
-sample
 mx.sample/env
 build/
