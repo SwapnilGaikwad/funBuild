@@ -10,6 +10,8 @@ public class RunJodaDemo {
 		System.out.println("Current Time: " + dt.toLocalTime() + " " + dt.getZone());
 		dt =dt.toDateTime(DateTimeZone.forID("America/New_York"));
 		System.out.println("New York Time: " + dt.toLocalTime() + " " + dt.getZone());
+
+		TestNodeGen.create(null); 
 	}
 
 }
