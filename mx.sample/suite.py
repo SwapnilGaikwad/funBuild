@@ -23,6 +23,16 @@ suite = {
         "version" : "0.13"
       },
       "sha1" : "1591f730dbc7df76819c4d2f84ebc2a060fcc3a6"
+    },
+    "TRUFFLE-DSL" : {
+      "path" : "lib/truffle-dsl-processor.jar",
+      "urls" : "",
+      "maven" : {
+        "groupId" : "com.oracle.truffle",
+        "artifactId" : "truffle-dsl-processor",
+        "version" : "0.13"
+      },
+      "sha1" : "45890a4c28db129d76a774925525670d5b610208"
     }
   },
 
@@ -32,9 +42,9 @@ suite = {
       "dependencies" : [
        "JODA",
        "TRUFFLE-API",
-       "mx:JUNIT"
       ],
-      "javaCompliance" : "1.8"
+      "javaCompliance" : "1.8",
+      "annotationProcessors" : ["TRUFFLE-API", "TRUFFLE-DSL"]
     }
   },
 
@@ -46,7 +56,6 @@ suite = {
       "exclude" : [
         "JODA",
         "TRUFFLE-API",
-        "mx:JUNIT"
       ]
     }
   }
