@@ -6,3 +6,4 @@ target/
 mxbuild
 mx.sample/env
 build/
+.apt_generated/

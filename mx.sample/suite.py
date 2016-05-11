@@ -2,17 +2,7 @@ suite = {
   "mxversion" : "5.19.6",
   "name" : "samplesuite",
   "javac.lint.overrides" : "none",
-#  "imports" : {
-#    "suites" : [
-#        {
-#           "name" : "graal-core",
-#           "version" : "ba68982f59a055f9fa69cea2c17ef4c491dbd212",
-#           "urls" : [
-#                {"url" : "https://github.com/graalvm/graal-core", "kind" : "git"},
-#            ]
-#        },
-#    ],
-#  },
+
   "libraries" : {
     "JODA" : {
       "path" : "lib/joda-time-2.9.3.jar",
