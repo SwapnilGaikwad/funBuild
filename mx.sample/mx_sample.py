@@ -1,11 +1,11 @@
 import mx
 
-print("******In mx_sample.py")
+print("****** In mx_sample.py")
 
-def fun(args=None):
-   print "###### In fun()"
+def function(args=None):
+   print "###### In function() for target 'fun'"
 
 _suite = mx.suite('sample')
 mx.update_commands(_suite,{
-  'fun' : [fun,'']}
+  'fun' : [function]}
 )
