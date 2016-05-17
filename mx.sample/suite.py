@@ -56,7 +56,9 @@ suite = {
       "exclude" : [
         "JODA",
         "TRUFFLE-API",
-      ]
+      ],
+      "annotation_processors" : "",
+      "addClassPath" : True
     }
   }
 }
